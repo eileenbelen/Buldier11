@@ -18,11 +18,7 @@ public class AsusZenBook extends ComputadorBuilder{
 		computador.setModelo("ZenBook");
 	}
 
-	@Override
-	public void setRAM() {
-		computador.setRam(16);	
-		
-	}
+	
 
 	@Override
 	public void setAlmacenamiento() {
@@ -51,6 +47,7 @@ public class AsusZenBook extends ComputadorBuilder{
 	@Override
 	public void setRam() {
 		// TODO Auto-generated method stub
+		computador.setRam(16);	
 		
 	}
 

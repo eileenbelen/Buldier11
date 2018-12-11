@@ -16,11 +16,6 @@ public class BuilderAsusR extends ComputadorBuilder{
 		computador.setModelo("ROG");
 	}
 
-	@Override
-	public void setRAM() {
-		computador.setRam(32);	
-		
-	}
 
 	@Override
 	public void setAlmacenamiento() {
@@ -49,6 +44,7 @@ public class BuilderAsusR extends ComputadorBuilder{
 	@Override
 	public void setRam() {
 		// TODO Auto-generated method stub
+		computador.setRam(32);
 		
 	}
 
