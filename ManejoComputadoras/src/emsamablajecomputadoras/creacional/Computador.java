@@ -11,10 +11,8 @@ package emsamablajecomputadoras.creacional;
  */
 public class Computador {
     private int ram;
-    private String tipoRam;
     private SistemaOperativo os;
     private int almacenamiento;
-    private String tipoAlmacenamiento;
     private Mainboard placa;
     private String marca;
     private String modelo;
@@ -93,27 +91,17 @@ public class Computador {
     
 
       
-    @Override
-    public String toString(){
-        return "Especificiaciones Tecnicas:\n";
+    
+    public String especificacionesTecnicas(){
+        return "Especificiaciones Técnicas:\n"
+               +"Modelo : "+modelo+"\n"
+               +"Marca: "+marca+"\n"
+               +"Mainboard: "+placa+"\n"
+               +"Memoria Ram: "+ram+"\n"
+               +"Disco duro: "+almacenamiento+"\n"
+               +"Sistema Operativo: "+os+"\n" ;
                
     }
-
-	public String getTipoRam() {
-		return tipoRam;
-	}
-
-	public void setTipoRam(String tipoRam) {
-		this.tipoRam = tipoRam;
-	}
-
-	public String getTipoAlmacenamiento() {
-		return tipoAlmacenamiento;
-	}
-
-	public void setTipoAlmacenamiento(String tipoAlmacenamiento) {
-		this.tipoAlmacenamiento = tipoAlmacenamiento;
-	}
     
     
     
