@@ -2,10 +2,8 @@
 
 package Builder;
 
-/**
- *
- * @author Durango
- */
+import emsamablajecomputadoras.creacional.Computador;
+
 public abstract class ComputadorBuilder {
     protected Computador c;
     
@@ -34,6 +32,46 @@ public abstract class ComputadorBuilder {
     public abstract boolean isCoolerExterno();
 
     public abstract void setCoolerExterno();
+
+
+
+
+
+
+	public void setRAM() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+
+
+
+	public void SistemaOperativo() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+
+
+
+	public void setMainboard() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+
+
+
+	public void setComputador() {
+		// TODO Auto-generated method stub
+		
+	}
     
     
 

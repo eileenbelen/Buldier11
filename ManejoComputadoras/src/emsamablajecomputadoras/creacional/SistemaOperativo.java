@@ -5,10 +5,7 @@
  */
 package emsamablajecomputadoras.creacional;
 
-/**
- *
- * @author Palacios
- */
+
 public class SistemaOperativo {
     
     private String nombre;

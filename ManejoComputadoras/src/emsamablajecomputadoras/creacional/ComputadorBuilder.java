@@ -5,10 +5,7 @@
  */
 package emsamablajecomputadoras.creacional;
 
-/**
- *
- * @author Durango
- */
+
 public abstract class ComputadorBuilder {
     protected Computador c;
     

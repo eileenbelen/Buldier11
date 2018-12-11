@@ -1,11 +1,13 @@
 package Builder;
-import emsamablajecomputadoras.creacional.Computador;
-import emsamablajecomputadoras.creacional.Mainboard;
-import emsamablajecomputadoras.creacional.SistemaOperativo;
+
+import emsamablajecomputadoras.creacional.*;
 
 public class BuilderAsusR extends ComputadorBuilder{
+	
+	Computador computador;
 	@Override
 	public void setMarca() {
+		
 		computador.setMarca("Asus");
 	}
 
@@ -41,6 +43,36 @@ public class BuilderAsusR extends ComputadorBuilder{
 	@Override
 	public void setComputador() {
 		computador = new Computador();
+		
+	}
+
+	@Override
+	public void setRam() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setOs() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setPlaca() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean isCoolerExterno() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void setCoolerExterno() {
+		// TODO Auto-generated method stub
 		
 	}
 	
